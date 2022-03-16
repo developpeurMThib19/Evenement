@@ -1,20 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import '../../App.css';
-import Sombre from "../../components/Sombre";
 
-
-
-
-export const Home = () => {
-      let objJson = {
-        prenom : "dany",
-        age : 30,
-        taille : 170
-    }
-    let objLinea = JSON.stringify(objJson);
-    localStorage.setItem("obj",objLinea);
+export const Electro = () => {
   
- 
   return (   
     <div>
     <div className="App-header ">

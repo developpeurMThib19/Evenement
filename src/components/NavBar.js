@@ -8,9 +8,7 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   
   return (
-      
     <>
-    
       <nav className="navbar">
         <div className="nav-container">
         
@@ -35,34 +33,34 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/about"
+                to="/Electro"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                About
+                Electro
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/Rock"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog
+                Rock
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/contact"
+                to="/Techno"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Techno
               </NavLink>
             </li>
           </ul>
